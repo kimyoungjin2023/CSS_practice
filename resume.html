@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 인터널 CSS(Internal CSS) -->
+    <style>
+        .contents {
+            text-align: center;
+        }
+        .date{
+            background: orange;
+            text-align: end;
+            font-size: small;
+            margin-top: 20px;
+        }
+
+        .github-link{
+            display: inline-block;
+            font-size: small;
+            color: gray;
+            text-decoration: none; 
+            /* text-decoration : 밑줄 지우기 */
+            margin-top: 10px;
+        }
+
+        .github-link:hover{
+            text-decoration: underline;
+            /* text-decoration : hover(마우스를 가져갔을때)underline(밑줄) */
+        }
+
+        #title {
+            background: skyblue;
+            font-size: x-large;
+            font-weight: bold;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        main {
+            font-size: medium;
+            background: gold;
+            margin-top: 50px;
+        }
+
+        footer {
+            font-size: x-small;
+            background: bisque;
+            margin-top: 200px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- 인라인 스타일(Inline Style) -->
+    <div class="date">2026.02.10</div>
+    <div class="contents" style="text-align: center;">
+
+        <header id="title" style="font-size:x-large;font-weight: bold; ">
+            Young-Jin Kim
+        </header>
+        <a class="github-link" href="https://github.com/kimyoungjin2023">
+            
+            <i class="fa-brands fa-github"></i>Github
+        
+        </a>
+              <a class="github-link" href="https://github.com/kimyoungjin2023">
+            
+            <i class="fa-brands fa-github"></i>Github
+        
+        </a>
+
+
+        <main id="description" style="font-size: medium; ">
+            AI(Computer Vision) Developers
+        </main>
+
+        <p></p>
+        <footer id="copyright" style="font-size: x-small;">
+            Copyright &#169; KimYoungJin
+        </footer>
+    </div>
+    </body>
+</html>
